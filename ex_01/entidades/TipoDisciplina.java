@@ -5,11 +5,10 @@ public enum TipoDisciplina {
     REDES("Redes de Computadores"),
     SO("Sistemas Operacionais"),
     LM("Linguagem de Marcação");
-    
 
     private String descricao;
 
-	TipoDisciplina(String descricao) {
+    private TipoDisciplina(String descricao) {
         this.descricao = descricao;
     }
 
