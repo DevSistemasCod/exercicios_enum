@@ -1,7 +1,7 @@
 package entidades;
 
 public class Disciplina {
-	private String periodo;
+    private String periodo;
     private TipoDisciplina tipo;
 
     // Construtor
