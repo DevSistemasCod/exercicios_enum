@@ -31,7 +31,7 @@ public class Principal {
 		System.out.println("\nLivros de Romance: "+biblioteca.buscarLivrosPorTipo(TipoLivro.ROMANCE));
 		
 		
-		System.out.println("\nVerifivar Disponibilidade do livro: "+livro2.getTitulo());
+		System.out.println("\nVerificar Disponibilidade do livro: "+livro2.getTitulo());
 		boolean disponivel = biblioteca.verificarDisponibilidadeLivro(livro2.getTitulo());
 		if(disponivel) {
 			System.out.println("Livro Disponível");
