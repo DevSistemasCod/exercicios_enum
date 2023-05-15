@@ -15,7 +15,7 @@ public class CadastroDisciplinas {
 	public void cadastrarDisciplina(Disciplina disciplina) {
 		if (disciplinas.contains(disciplina)) {
 			System.out.println("Disciplina já cadastrada!");
-		} else if (!isValidTipoDisciplina(disciplina.getTipo())) {
+		} else if (!isTipoDisciplinaValida(disciplina.getTipo())) {
 			System.out.println("Tipo de disciplina inválido!");
 		} else {
 			disciplinas.add(disciplina);
@@ -41,7 +41,7 @@ public class CadastroDisciplinas {
 	}
 
 	// Método para verificar se o tipo de disciplina é válido
-	private boolean isValidTipoDisciplina(TipoDisciplina tipoDisciplina) {
+	private boolean isTipoDisciplinaValida(TipoDisciplina tipoDisciplina) {
 		for (TipoDisciplina tipo : TipoDisciplina.values()) {
 			if (tipo == tipoDisciplina) {
 				return true;
