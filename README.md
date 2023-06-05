@@ -1,12 +1,7 @@
 # Exercicios_Enum
-1) Desenvolva um programa para definir diferentes tipos de disciplinas que são oferecidos para uma turma, garanta que somente tipos definidos sejam utilizados no cadastro de disciplinas. 
+1) Desenvolva um programa para definir diferentes tipos de disciplinas que são oferecidos para uma turma, garanta que somente tipos definidos sejam utilizados no cadastro de disciplinas. Para tanto, crie uma enumeração chamada "TipoDisciplina" e adicione a ela as constantes que representam os diferentes tipos de disciplinas oferecidas pela escola, como "FPOO", "REDES", "SO", "LM", bem como suas respectivas descrições.
 
- Para tanto, crie uma enumeração chamada "TipoDisciplina" e adicione a ela as constantes que representam os diferentes tipos de disciplinas oferecidas pela escola, como "FPOO", "REDES", "SO", "LM", bem como suas respectivas descrições.
-
- Escreva uma classe chamada Disciplina a qual possui os atributos periodo, e tipo, implemente os gets e sets necessários bem como um construtor para os atributos das classe. Crie também a classe CadastroDisciplinas a qual possui um ArrayList de Disciplinas.
- Faça os métdos CadastrarDisciplina, RemoverDisciplina, ListarDisciplina.
-
- Por fim faça uma classe para testar as implementações feitas acima. 
+ Escreva uma classe chamada Disciplina a qual possui os atributos periodo, e tipo, implemente os gets e sets necessários bem como um construtor para os atributos das classe. Crie também a classe CadastroDisciplinas a qual possui um ArrayList de Disciplinas. Faça os métdos CadastrarDisciplina, RemoverDisciplina, ListarDisciplina. Por fim faça uma classe para testar as implementações feitas acima. 
  
 ------
 
@@ -16,9 +11,7 @@
 
   Além disso, utilize um o ArrayList para armazenar os livros cadastrados na biblioteca. Crie uma classe Livro que tenha atributos como título, autor, editora, ano de publicação, tipo (do tipo TipoLivro) e quantidade de exemplares disponíveis. Em seguida, crie uma classe para gerenciar o acervo da biblioteca, adicionando métodos para cadastrar novos livros, verificar se um livro está disponível, emprestar um livro e devolver um livro.
 
-  Ao utilizar a enumeração e o ArrayList, você torna mais fácil a busca e filtragem das informações no sistema, permitindo, por exemplo, que o usuário busque todos os livros de um determinado tipo ou que verifique quais livros estão disponíveis para empréstimo.
-
-  Ao fim faça uma classe para testar a implementação desenvolvida.
+  Ao utilizar a enumeração e o ArrayList, você torna mais fácil a busca e filtragem das informações no sistema, permitindo, por exemplo, que o usuário busque todos os livros de um determinado tipo ou que verifique quais livros estão disponíveis para empréstimo. Ao fim faça uma classe para testar a implementação desenvolvida.
  
 ------
 
@@ -43,9 +36,7 @@ Utilize a enumeração Departamento para facilitar a organização dos funcioná
  Implemente a classe Produto com os atributos código, descrição, tipo do produto e quantidade. Desenvolva também o construtor que utiliza todos os atributos, métodos gets e sets necessários e método toString. Implemente também a classe Venda com tipo, quantidade de vendas, construtor para os atributos, métodos gets e sets necessários e o método finalizar venda, que calcula o valor da venda.
 
  Para armazenar os produtos disponíveis na loja, utilize uma LinkedList de objetos do tipo Produto na classe Loja.
- A classe Loja deve ter os métodos cadastrar, listar, exibir produtos por tipo e o método venderProduto. Por fim, crie uma classe Principal para testar as implementações realizadas acima, permitindo que o usuário cadastre novos produtos e realize vendas informando o tipo do produto e a quantidade desejada. 
-
- O programa deve exibir o valor total da venda e atualizar a quantidade de produtos disponíveis na loja após cada venda.
+ A classe Loja deve ter os métodos cadastrar, listar, exibir produtos por tipo e o método venderProduto. Por fim, crie uma classe Principal para testar as implementações realizadas acima, permitindo que o usuário cadastre novos produtos e realize vendas informando o tipo do produto e a quantidade desejada.  O programa deve exibir o valor total da venda e atualizar a quantidade de produtos disponíveis na loja após cada venda.
 
 
 
