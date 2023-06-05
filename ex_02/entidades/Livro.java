@@ -61,7 +61,7 @@ public class Livro {
 				+ " Editora: " + editora + ", "
 				+ " Ano de Publicacao: " + anoPublicacao + ", "
 				+ " Tipo: " + tipo + ", "
-			    + " Quantidade de Exemplares: " + qtdExemplares;
+			        + " Quantidade de Exemplares: " + qtdExemplares;
 	}
 	
 	
