@@ -3,7 +3,7 @@ package entidades;
 import java.util.ArrayList;
 
 public class Biblioteca {
-	private ArrayList<Livro> acervo;
+    private ArrayList<Livro> acervo;
 
     public Biblioteca() {
         acervo = new ArrayList<Livro>();
