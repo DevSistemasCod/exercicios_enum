@@ -37,7 +37,8 @@ Utilize a enumeração Departamento para facilitar a organização dos funcioná
 
  Para armazenar os produtos disponíveis na loja, utilize uma LinkedList de objetos do tipo Produto na classe Loja.
  A classe Loja deve ter os métodos cadastrar, listar, exibir produtos por tipo e o método venderProduto. Por fim, crie uma classe Principal para testar as implementações realizadas acima, permitindo que o usuário cadastre novos produtos e realize vendas informando o tipo do produto e a quantidade desejada.  O programa deve exibir o valor total da venda e atualizar a quantidade de produtos disponíveis na loja após cada venda.
-
+ 
+------
 
 6)  Faça um programa em Java para gerenciar um supermercado e seus produtos. Para isso, você deve utilizar Enum e ArrayList. Crie uma enumeração chamada "Categoria" com as seguintes constantes: BEBIDAS, CARNES, HORTIFRUTI, LIMPEZA, PADARIA. Cada categoria deve ter um nome e um código. Em seguida, escreva a classe Produto com os seguintes atributos: nome, preço, categoria (do tipo Categoria) e quantidade em estoque.
   Implemente uma classe Supermercado que tenha um ArrayList de Produtos, além de métodos para adicionar e remover e listar produtos do estoque. Utilize a enumeração Categoria para facilitar a organização dos produtos por categoria, para isso crie um método para retornar a lista de produtos de uma determinada categoria.
